@@ -31,14 +31,7 @@ module.exports = {
         DEFAULT: "#FFF",
       },
       black: {
-        DEFAULT: "#212121",
-        100: "#787D85",
-      },
-      primary: {
-        DEFAULT: "",
-      },
-      grey: {
-        DEFAULT: "#9E9E9E",
+        DEFAULT: "#212121", //rgba(0, 0, 0, 0.87)
       },
     },
     fontSize: {
@@ -143,7 +136,6 @@ module.exports = {
     extend: {
       fontFamily: {
         primary: ["'Roboto'", ...defaultTheme.fontFamily.sans],
-        jost: ["'Jost'", ...defaultTheme.fontFamily.sans],
       },
       spacing: {
         4.5: "1.125rem",
