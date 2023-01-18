@@ -9,7 +9,7 @@ type Props = {
 
 export const Layout: React.FC<Props> = ({ children }) => {
   return (
-    <section className="flex min-h-screen flex-col bg-white-100 font-primary text-16 font-normal text-black">
+    <section className="flex min-h-screen flex-col font-primary text-16 font-normal text-black">
       <header>
         <Header />
       </header>

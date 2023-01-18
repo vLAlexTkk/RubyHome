@@ -31,7 +31,16 @@ module.exports = {
         DEFAULT: "#FFF",
       },
       black: {
-        DEFAULT: "#212121", //rgba(0, 0, 0, 0.87)
+        DEFAULT: "#030A1B",
+      },
+      primary: {
+        DEFAULT: "#2E6EFF",
+      },
+      orange: {
+        DEFAULT: "#FE753F",
+      },
+      red: {
+        DEFAULT: "#E61E14",
       },
     },
     fontSize: {
@@ -135,7 +144,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        primary: ["'Roboto'", ...defaultTheme.fontFamily.sans],
+        primary: ["'Poppins'", ...defaultTheme.fontFamily.sans],
       },
       spacing: {
         4.5: "1.125rem",
