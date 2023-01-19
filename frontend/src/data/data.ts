@@ -47,3 +47,26 @@ export const FOOTER_FILE = [
     detailedInfoFourth: "+880176565655",
   },
 ];
+
+export const partners = [
+  {
+    id: 1,
+    corporation: "/images/partners/biotech.png",
+  },
+  {
+    id: 2,
+    corporation: "/images/partners/express.png",
+  },
+  {
+    id: 3,
+    corporation: "/images/partners/homebild.png",
+  },
+  {
+    id: 4,
+    corporation: "/images/partners/connect.png",
+  },
+  {
+    id: 5,
+    corporation: "/images/partners/homebild.png",
+  },
+];

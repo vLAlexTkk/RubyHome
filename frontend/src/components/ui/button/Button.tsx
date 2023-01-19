@@ -4,6 +4,7 @@ import Loop from "@icons/loop.svg";
 export const Button = ({ children, search = "none", type = "default", ...props }: IButton): JSX.Element => {
   return (
     <button
+      type="submit"
       className={
         type == "contact"
           ? "flex items-center rounded-[5px] border border-primary bg-primary py-3 px-5 font-medium text-white transition-colors hover:bg-white hover:text-primary lg:py-3 lg:px-7.5"

@@ -4,8 +4,8 @@ import { TabsPage } from "./TabsPage";
 
 export const HeroList = ({}): JSX.Element => {
   return (
-    <section>
-      <div className="flex flex-col items-center justify-center gap-10 py-18 lg:flex-row xl:gap-20">
+    <section id="home">
+      <div className="flex flex-col items-center justify-center gap-10 py-10 lg:py-18 lg:flex-row xl:gap-20">
         <div className="grid grid-cols-1 gap-5 lg:gap-7.5">
           <Heading type="main">
             Find the perfect <br className="hidden lg:flex" /> place to stay with <br className="hidden lg:flex" /> your
