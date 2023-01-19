@@ -18,7 +18,7 @@ export const Button = ({ children, search = "none", type = "default", ...props }
       {...props}
     >
       {search != "none" && (
-        <span className={search == "loop" ? "mr-2 flex text-white" : "hidden"}>
+        <span className={search == "loop" ? "mr-2 flex text-white text-current" : "hidden"}>
           <Loop className="h-[15px] w-3.5" />
         </span>
       )}
