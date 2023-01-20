@@ -1,3 +1,4 @@
+import React from "react";
 import { cardsList } from "@src/data/data";
 import { Button } from "@components/ui/button/Button";
 
@@ -5,10 +6,10 @@ import Location from "@icons/location.svg";
 import FlatRooms from "@icons/flat-rooms.svg";
 import KitchenRooms from "@icons/kitchen-rooms.svg";
 import BathRooms from "@icons/bathrooms.svg";
-import { useState } from "react";
+import { CardModal } from "./CardModal";
 
 export const InfoCards: React.FC = () => {
-  const [liked, setLiked] = useState<any>(null);
+  const [liked, setLiked] = React.useState<any>(null);
   return (
     <div className="grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:grid-cols-3">
       {cardsList &&
@@ -45,9 +46,9 @@ export const InfoCards: React.FC = () => {
                   <p>{card.propertyInfo[1]}</p>
                 </div>
               </div>
-              <div className="flex flex-row gap-2 items-center justify-between">
+              <div className="flex flex-row items-center justify-between gap-2">
                 <p className="text-20 font-semibold leading-30 text-orange">{card.price}</p>
-                <Button type="card-details">View details</Button>
+               <CardModal/>
               </div>
             </div>
           </div>
