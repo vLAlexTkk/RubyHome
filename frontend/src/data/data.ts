@@ -70,3 +70,54 @@ export const partners = [
     corporation: "/images/partners/homebild.png",
   },
 ];
+
+export const cardsList = [
+  {
+    id: 1,
+    imagePath: "/images/properties/house-1.png",
+    title: "Capital hill residence",
+    location: "East London",
+    propertyInfo: ["6", "2", "3"],
+    price: "$5527.00",
+  },
+  {
+    id: 2,
+    imagePath: "/images/properties/house-2.png",
+    title: "Picket Fence Realty",
+    location: "East London",
+    propertyInfo: ["7", "3", "1"],
+    price: "$6727.00",
+  },
+  {
+    id: 3,
+    imagePath: "/images/properties/house-3.png",
+    title: "Banyon Tree Realty",
+    location: "East London",
+    propertyInfo: ["6", "1", "3"],
+    price: "$4327.00",
+  },
+  {
+    id: 4,
+    imagePath: "/images/properties/house-4.png",
+    title: "Corsair Real Estate",
+    location: "East London",
+    propertyInfo: ["6", "2", "3"],
+    price: "$4427.00",
+  },
+  {
+    id: 5,
+    imagePath: "/images/properties/house-5.png",
+    title: "Sequoia Real Estate",
+    location: "East London",
+    propertyInfo: ["4", "3", "2"],
+    price: "$4527.00",
+  },
+  {
+    id: 6,
+    imagePath: "/images/properties/house-6.png",
+    title: "Strive Partners Realty",
+    location: "East London",
+    propertyInfo: ["5", "3", "1"],
+    price: "$5527.00",
+  },
+];
