@@ -121,3 +121,42 @@ export const cardsList = [
     price: "$5527.00",
   },
 ];
+
+export const buildingInfo = [
+  {
+    id: 1,
+    imagePath: "/icons/featured/security.svg",
+    title: "100% Security",
+    description: "For many of us, buying a home is a dre and one not easily attainable. ",
+  },
+  {
+    id: 2,
+    imagePath: "/icons/featured/ac.svg",
+    title: "Free air conditioner",
+    description: "For many of us, buying a home is a dre and one not easily attainable. ",
+  },
+  {
+    id: 3,
+    imagePath: "/icons/featured/flower-garden.svg",
+    title: "Flower garden",
+    description: "For many of us, buying a home is a dre and one not easily attainable. ",
+  },
+  {
+    id: 4,
+    imagePath: "/icons/featured/parking.svg",
+    title: "Parkers & movers",
+    description: "For many of us, buying a home is a dre and one not easily attainable. ",
+  },
+  {
+    id: 5,
+    imagePath: "/icons/featured/furniture.svg",
+    title: "Rental furniture",
+    description: "For many of us, buying a home is a dre and one not easily attainable. ",
+  },
+  {
+    id: 6,
+    imagePath: "/icons/featured/swimming-pool.svg",
+    title: "Swimming pool",
+    description: "For many of us, buying a home is a dre and one not easily attainable. ",
+  },
+];

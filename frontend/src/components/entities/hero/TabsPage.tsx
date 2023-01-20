@@ -19,7 +19,7 @@ export const TabsPage: React.FC = () => {
   return (
     <section>
       <Tabs selectedId={selectedTabId} tabs={tabs} onClick={handleTabClick} />
-      <div className="!z-50 rounded-bl-md rounded-tr-md rounded-br-md bg-white py-3 px-8">
+      <div className="!z-50 rounded-bl-md rounded-tr-md rounded-br-md bg-white shadow-lg py-3 px-8">
         {selectedTabId === tabs[0].id && (
           <form className="flex flex-col justify-between gap-3 lg:flex-wrap">
             <div className="flex flex-col gap-1">

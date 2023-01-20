@@ -17,7 +17,7 @@ export const CardModal: React.FC = () => {
       </Button>
       {openInfo && (
         <div className="fixed top-0 left-0 flex overflow-y-scroll overscroll-y-auto h-full w-full items-center justify-center bg-black bg-opacity-20 px-5">
-          <div className="mx-auto flex max-h-[500px] lg:max-h-[700px] flex-col overflow-y-scroll overscroll-y-auto rounded-[10px] bg-white p-4 md:px-5 md:py-5">
+          <div className="mx-auto flex max-h-[500px] lg:max-h-[700px] flex-col overflow-y-scroll overscroll-y-auto rounded-[10px] shadow-lg bg-white p-4 md:px-5 md:py-5">
             <button className="flex cursor-pointer flex-row items-end justify-end" onClick={() => setOpenInfo(false)}>
               <Close className="h-3.5 w-3.5 text-black" />
             </button>

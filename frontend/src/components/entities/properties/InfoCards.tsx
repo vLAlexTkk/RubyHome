@@ -14,7 +14,7 @@ export const InfoCards: React.FC = () => {
     <div className="grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:grid-cols-3">
       {cardsList &&
         cardsList.map((card) => (
-          <div key={card.id} className="grid grid-cols-1 gap-7.5 rounded-lg bg-white">
+          <div key={card.id} className="grid grid-cols-1 gap-7.5 rounded-lg shadow-lg bg-white">
             <img src={card.imagePath} alt="cards-image" />
             <div className="grid max-w-[362px] grid-cols-1 gap-2 px-7.5 pb-8">
               <div className="flex w-full flex-row items-center justify-between">
