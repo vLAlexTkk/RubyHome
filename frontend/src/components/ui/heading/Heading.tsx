@@ -9,7 +9,7 @@ export const Heading = ({ children, type }: IHeading): JSX.Element => {
           : type == "blocks"
           ? "text-36 font-semibold leading-48 lg:text-44 lg:leading-66"
           : type == "description"
-          ? "text text-16 font-semibold leading-24 tracking-0.05 text-orange"
+          ? "text text-16 font-semibold uppercase leading-24 tracking-0.05 text-orange"
           : ""
       }
     >

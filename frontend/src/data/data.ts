@@ -160,3 +160,37 @@ export const buildingInfo = [
     description: "For many of us, buying a home is a dre and one not easily attainable. ",
   },
 ];
+export const contactInfo = [
+  {
+    id: 1,
+    clientLogo: "/images/contact/client-logo-1.png",
+    name: "Justin Lee",
+    profession: "Products Designer",
+    comments:
+      "A good real estate agent doesn't disappear once the closing IN signed.Buying a bigger home doesn’t necessarily mean spendi more money.Been there. Done that. Sold. Bought Bringing It All Together.",
+  },
+  {
+    id: 2,
+    clientLogo: "/images/contact/client-logo-2.png",
+    name: "Angel Cathe",
+    profession: "IT Services Manager",
+    comments:
+      "Excellent service to choose from from budget to premium class. Friendly, decent, punctual and honest. I recommend",
+  },
+  {
+    id: 3,
+    clientLogo: "",
+    name: "Rachel Rio",
+    profession: "Construction Company Administrator",
+    comments:
+      "Used the services of this company. The most important thing I want to say is that very decent people work here. Recommend",
+  },
+  {
+    id: 4,
+    clientLogo: "",
+    name: "Alex Endris",
+    profession: "Interpreter",
+    comments:
+      "I want to thank the staff for the excellent service, quality and efficiency. Got everything I wanted. Would recommend to anyone who needs a home. Many thanks",
+  },
+];

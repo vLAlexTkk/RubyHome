@@ -5,6 +5,7 @@ import HeroBlock from "./hero";
 import Partners from "./partners";
 import Properties from "./properties";
 import Featured from "./featured";
+import ContactUs from "./contact";
 
 const Home: NextPage = (): JSX.Element => {
   return (
@@ -12,7 +13,8 @@ const Home: NextPage = (): JSX.Element => {
       <HeroBlock />
       <Partners />
       <Properties />
-      <Featured/>
+      <Featured />
+      <ContactUs />
     </Layout>
   );
 };

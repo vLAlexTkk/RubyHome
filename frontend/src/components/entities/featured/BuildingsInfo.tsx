@@ -1,5 +1,4 @@
 import { IBildings } from "@src/types/buildingCard";
-import { describe } from "node:test";
 
 export const BuildingsInfo = ({ children, titled, image, description,  ...props }: IBildings): JSX.Element => {
   return (
